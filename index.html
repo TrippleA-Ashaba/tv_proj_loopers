@@ -20,12 +20,12 @@
 			<h1>{{message}}</h1>
 			<div class="screen">
 				<div class="display">
-					<img src="/istockphoto-1155240471-1024x1024.jpg" alt="" />
+					<img v-if="on" v-bind:src="channel" alt="" />
 				</div>
 			</div>
 			<div class="buttons">
 				<div>
-					<button type="button" class="btn btn-light m-2">
+					<button type="button" class="btn btn-light m-2" @click="on=!on">
 						<i class="bi bi-camera-video-off"></i>
 					</button>
 					<button type="button" class="btn btn-light m-2">Prev</button>

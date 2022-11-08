@@ -3,11 +3,9 @@ const { createApp } = Vue;
 createApp({
 	data() {
 		return {
-			message: "Looper VueTV!",
+			message: "Looper VueTv!",
+			channel: "https://i.gifer.com/9dDE.gif",
+			on: true,
 		};
-	},
-	methods: {
-		tvOn() {},
-		tvOff() {},
 	},
 }).mount("#app");
