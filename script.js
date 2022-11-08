@@ -3,7 +3,11 @@ const { createApp } = Vue;
 createApp({
 	data() {
 		return {
-			message: "Hello Vue!",
+			message: "Looper VueTV!",
 		};
+	},
+	methods: {
+		tvOn() {},
+		tvOff() {},
 	},
 }).mount("#app");
