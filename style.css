@@ -35,3 +35,7 @@ h1 {
 	width: 700px;
 	height: 400px;
 }
+
+.display p {
+	padding: 180px 325px;
+}
