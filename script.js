@@ -9,6 +9,7 @@ createApp({
 				"https://i.gifer.com/2of.gif",
 				"https://i.gifer.com/NHBl.gif",
 				"https://i.gifer.com/9dDE.gif",
+				"banner-2.jpg",
 			],
 			visible: 0,
 		};

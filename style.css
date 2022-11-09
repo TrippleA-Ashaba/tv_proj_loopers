@@ -14,7 +14,7 @@ h1 {
 }
 
 .tv {
-	margin-top: 5%;
+	margin-top: 2%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -25,7 +25,7 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 5%;
+	margin-top: 3%;
 	border: 20px solid rgba(251, 3, 3, 0.533);
 	width: fit-content;
 	border-radius: 20px;
